@@ -7,7 +7,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias ls='ls --color'
-alias ll='ls -la --color'
+alias ll='ls -l --color'
 
 alias grepc='grep -iIRn --color=always'
 alias findf='find ./ -name'
