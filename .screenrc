@@ -1,0 +1,21 @@
+"!!!!! @Author:	Jakub Burzynski
+"!!!!! @Date:	2012
+"!!!!! @Mail:	kubatrt@gmail.com
+
+
+
+screen -t bash0
+screen -t bash1
+screen -t bash2
+screen -t bash3
+altscreen on
+bind ',' prev
+bind '.' next
+defutf8 on
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][ %{B}%D %m/%d/%y %{g} | %{W}%C:%s %A%{g} ]'
+
+term screen-256color
+terminfo rxvt* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defscrollback 3000
