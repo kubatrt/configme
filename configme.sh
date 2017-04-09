@@ -1,6 +1,6 @@
 #!/bin/bash
-# This script was created to automate setup my Linux dev environment
-# Jakub Burzynski 2017
+# By Jakub Burzynski 2017
+# This script was created to automate setup and configure fresh Linux installation.
 
 USER=`whoami | awk '{ print $1 }'`
 USER_HOME=/home/$USER
@@ -18,7 +18,7 @@ fi
 # Setup configuration files
 files=(".vimrc" ".bashrc" ".gitconfig" ".screenrc")
 
-echo configuration files in list: ${files[*]}
+echo Configuration files on the list: ${files[*]}
 
 for file in ${files[@]}
 do
@@ -30,6 +30,7 @@ do
 	esac
 done
 
+# run setup.sh
 
 # Install applications
 # git, cmake, vim, qtcreator, screen
