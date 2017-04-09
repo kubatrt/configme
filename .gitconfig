@@ -33,7 +33,6 @@ br = branch
 co = checkout
 df = diff
 lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-;lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset  %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
 lga = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
 lol = log --graph --decorate --pretty=oneline --abbrev-commit
 lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
@@ -45,6 +44,6 @@ unstage = reset HEAD
 
 [user]
 	email = kubatrt@gmail.com
-	name = Kuba
+	name = kuba
 [push]
 	default = current
