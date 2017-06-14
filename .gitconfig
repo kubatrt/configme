@@ -40,6 +40,6 @@ unstage = reset HEAD
 
 [user]
 	email = kubatrt@gmail.com
-	name = kuba
+	name = Kuba
 [push]
 	default = current
