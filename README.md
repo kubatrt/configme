@@ -14,11 +14,11 @@ Installation
 Comments
 ===================
 
-This is my first tool written in bash. I'd lvoe to hear your comments and suggestions.
+This is my first tool written in bash. I'd love to hear your comments and suggestions.
 
 
 
-Audio software
+Audio software *disabled
 ===================
 
 hydrogen
@@ -29,7 +29,7 @@ guitarix
 gtkguitune
 
 
-Other software
+Other software *disabled
 ===================
 
 libsdl2-dev 
